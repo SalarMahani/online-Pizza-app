@@ -1,9 +1,12 @@
 # 🍕 Fast React Pizza
 
-**Fast React Pizza** is a pizza-ordering app originally created by [Jonas Schmedtmann](https://github.com/jonasschmedtmann).This version has been modified, Dockerized and Specialized by me.
+**Fast React Pizza** is a pizza-ordering app originally created by [Jonas Schmedtmann](https://github.com/jonasschmedtmann).<br>
+This version has been modified, Dockerized and Specialized by me.<br>
 Users can place orders by choosing pizzas, setting their delivery details, and marking their order as priority—all without creating an account.
 
 Live Demo: 👉[https://online-pizza-app-v73z.vercel.app/](https://online-pizza-app-v73z.vercel.app/)
+
+<br>
 
 ## 🚀 Features
 
@@ -13,6 +16,8 @@ Live Demo: 👉[https://online-pizza-app-v73z.vercel.app/](https://online-pizza-
 - 📝 Order form auto-fills name and optionally captures phone, address, and geolocation
 - 🚨 Allows marking orders as “priority” (+20% total)
 - 🔁 Generates unique order ID and lets users mark priority after ordering.
+
+<br>
 
 ## 🛠️ Technologies Used
 
@@ -24,12 +29,13 @@ Live Demo: 👉[https://online-pizza-app-v73z.vercel.app/](https://online-pizza-
 | CSS                | Tailwind CSS                               |
 | Backend Simulation | Dummy API fetches order and menu data      |
 
+<br>
 
 ## 📦 Getting Started
 
 You have two options to run this project:
 
----
+
 
 ### 🔧 Option 1: Run Locally 
 
