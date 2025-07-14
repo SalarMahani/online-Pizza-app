@@ -27,7 +27,7 @@ Live Demo: 👉[https://online-pizza-app-v73z.vercel.app/](https://online-pizza-
 | State Management   | Redux + Redux Toolkit + Thunks             |
 | API Handling       | React‑Router loader                        |
 | CSS                | Tailwind CSS                               |
-| Backend Simulation | Dummy API fetches order and menu data      |
+| Backend Simulation | Dummy API fetches data                     |
 
 <br>
 
