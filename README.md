@@ -12,7 +12,7 @@ Live Demo: 👉[https://online-pizza-app-v73z.vercel.app/](https://online-pizza-
 - ➕ Add & remove pizzas, adjust quantities in cart
 - 📝 Order form auto-fills name and optionally captures phone, address, and geolocation
 - 🚨 Allows marking orders as “priority” (+20% total)
-- 🔁 Generates unique order ID and lets users mark priority after ordering :contentReference[oaicite:1]{index=1}
+- 🔁 Generates unique order ID and lets users mark priority after ordering.
 
 ## 🛠️ Technologies Used
 
