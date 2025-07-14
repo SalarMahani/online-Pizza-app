@@ -57,7 +57,7 @@ You have two options to run this project:
 
 ### 🔧 Option 2: Run With Docker
 
-1. Download the image & run the container:
+1. Download the image & run a container:
    ```bash
    docker run -p 3000:80 albosseeker/online-food-app
 
