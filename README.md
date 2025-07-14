@@ -1,8 +1,9 @@
 # 🍕 Fast React Pizza
 
-**Fast React Pizza** is a pizza-ordering app built during Jonas Schmedtmann’s *“Ultimate React Course”*. Users can place orders by choosing pizzas, setting their delivery details, and marking their order as priority—all without creating an account.
+**Fast React Pizza** is a pizza-ordering app originally created by [Jonas Schmedtmann](https://github.com/jonasschmedtmann).This version has been modified, Dockerized,Specialized, and deployed by me.
+Users can place orders by choosing pizzas, setting their delivery details, and marking their order as priority—all without creating an account.
 
-Live Demo: 👉 **[Your Deployed Link]**
+Live Demo: 👉[https://online-pizza-app-v73z.vercel.app/](https://online-pizza-app-v73z.vercel.app/)
 
 ## 🚀 Features
 
@@ -15,14 +16,13 @@ Live Demo: 👉 **[Your Deployed Link]**
 
 ## 🛠️ Technologies Used
 
-| Layer              | Tech Stack                                |
+| Layer              | Tech Stack                                 |
 |--------------------|--------------------------------------------|
 | UI Framework       | React + React Router v6                    |
 | State Management   | Redux + Redux Toolkit + Thunks             |
-| API Handling       | React‑Router loader & action functions     |
+| API Handling       | React‑Router loader                        |
 | CSS                | Tailwind CSS                               |
 | Backend Simulation | Dummy API fetches order and menu data      |
-| Deployment         | Vercel                                     |
 
 
 ## 📦 Getting Started
@@ -35,7 +35,7 @@ You have two options to run this project:
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/SalarMahani/worldwise.git
+   git clone https://github.com/SalarMahani/online-Pizza-app.git
    cd worldwise
    
 2. Install dependencies:
@@ -50,11 +50,12 @@ You have two options to run this project:
    ```bash
    npm run server
    
-5. Visit: http://localhost:5173
+5. Visit: http://localhost:3000
 
 
 ### 🔧 Option 2: Run With Docker
 
-1. Download & run the container:
+1. Download the image & run the container:
    ```bash
-   docker run -p 5173:5173 -p 9000:9000 albosseeker/worldwise
+   docker run -p 3000:80 albosseeker/online-food-app
+
