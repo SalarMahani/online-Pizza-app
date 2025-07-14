@@ -1,12 +1,60 @@
-# React + Vite
+# 🍕 Fast React Pizza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Fast React Pizza** is a pizza-ordering app built during Jonas Schmedtmann’s *“Ultimate React Course”*. Users can place orders by choosing pizzas, setting their delivery details, and marking their order as priority—all without creating an account.
 
-Currently, two official plugins are available:
+Live Demo: 👉 **[Your Deployed Link]**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎯 Welcome page prompts users to enter their name before ordering
+- 📦 Fetches dynamic pizza menu from an API
+- ➕ Add & remove pizzas, adjust quantities in cart
+- 📝 Order form auto-fills name and optionally captures phone, address, and geolocation
+- 🚨 Allows marking orders as “priority” (+20% total)
+- 🔁 Generates unique order ID and lets users mark priority after ordering :contentReference[oaicite:1]{index=1}
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+| Layer              | Tech Stack                                |
+|--------------------|--------------------------------------------|
+| UI Framework       | React + React Router v6                    |
+| State Management   | Redux + Redux Toolkit + Thunks             |
+| API Handling       | React‑Router loader & action functions     |
+| CSS                | Tailwind CSS                               |
+| Backend Simulation | Dummy API fetches order and menu data      |
+| Deployment         | Vercel                                     |
+
+
+## 📦 Getting Started
+
+You have two options to run this project:
+
+---
+
+### 🔧 Option 1: Run Locally 
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/SalarMahani/worldwise.git
+   cd worldwise
+   
+2. Install dependencies:
+   ```bash
+   npm install
+   
+3. Run the dev server:
+   ```bash
+   npm run dev
+   
+4. Run the local backend:
+   ```bash
+   npm run server
+   
+5. Visit: http://localhost:5173
+
+
+### 🔧 Option 2: Run With Docker
+
+1. Download & run the container:
+   ```bash
+   docker run -p 5173:5173 -p 9000:9000 albosseeker/worldwise
