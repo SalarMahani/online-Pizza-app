@@ -52,11 +52,7 @@ You have two options to run this project:
    ```bash
    npm run dev
    
-4. Run the local backend:
-   ```bash
-   npm run server
-   
-5. Visit: http://localhost:3000
+4. Visit: http://localhost:3000
 
 
 ### 🔧 Option 2: Run With Docker
